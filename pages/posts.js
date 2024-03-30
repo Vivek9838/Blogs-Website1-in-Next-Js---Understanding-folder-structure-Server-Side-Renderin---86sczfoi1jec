@@ -14,7 +14,9 @@ function Posts() {
       <h1>Post List</h1>
       <ul>
         {posts.map((post)=>(
+          <li>
           <Link href={post.path}>{post.name}</Link>
+          </li>
         ))}
       </ul>
     </div>
